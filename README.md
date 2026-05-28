@@ -101,6 +101,10 @@ The target variable of this project is:
 
 ```text
 Diagnosis
+```
+The model predicts the diagnosis type of heart disease based on patient details.
+
+---
 
 ## Model Evaluation
 
@@ -113,29 +117,55 @@ The model was evaluated using the following metrics:
 - F1-score
 - Confusion Matrix
 
+---
+
 ## Results
 
 The Random Forest Classifier achieved an accuracy of:
 
 ```text
 73.14%
+```
+This means the model correctly predicted around 73% of the test data.
+
+---
 
 ##Sample Prediction
 
 Example prediction result:
 
+```text
   Predicted Diagnosis: Mitral stenosis
   Actual Diagnosis: Mitral stenosis
+```
 
 This shows that the model correctly predicted the diagnosis for one test patient.
 
+---
+
 ## Screenshots
+
+### Dataset Overview
+
 ![Dataset Overview](images/dataset_overview.png)
+
+### Accuracy Result
+
 ![Accuracy Result](images/accuracy_result.png)
+
+### Classification Report
+
 ![Classification Report](images/classification_report.png)
+
+### Confusion Matrix
+
 ![Confusion Matrix](images/confusion_matrix.png)
+
+### One Patient Prediction
+
 ![One Patient Prediction](images/one_patient_prediction.png)
 
+---
 
 ## Conclusion
 
